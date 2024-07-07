@@ -67,11 +67,9 @@ footer {
     text-align: center;
     padding: 10px 0;
     position: fixed;
-    width: 100%;
+    width: 100% !important; 
     bottom: 0;
 }
-
-/* Añadir al final del archivo style.css */
 
 .filtros {
     text-align: center;
@@ -109,3 +107,15 @@ footer {
     width: 100%;
     height: auto;
 }
+
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100% !important; 
+    bottom: 0;
+    height:7%;
+}
+
