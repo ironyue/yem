@@ -1,4 +1,4 @@
-# yem
+# Yem Cosmetica
 
 ### Descripcion
-Se comienza la creacion de la tienda de yem cosmetica 6/7/24
+6/7/24 Comienza la creacion de la tienda
