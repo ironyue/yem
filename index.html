@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Cosméticos y Holísticos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Cosméticos y Holísticos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="productos.php">Productos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="carrito.php">Carrito</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Productos -->
+        <section id="productos" class="lista-productos">
+            <!-- Los productos se cargarán dinámicamente aquí -->
+        </section>
+
+        <!-- Carrito -->
+        <section id="carrito" class="carrito">
+            <h2>Carrito de Compras</h2>
+            <div class="lista-carrito">
+                <!-- Los productos del carrito se cargarán dinámicamente aquí -->
+            </div>
+            <div class="totales">
+                <div>Subtotal: $<span id="subtotal">0.00</span></div>
+                <div>Costo de Envío: $<span id="costo-envio">0.00</span></div>
+                <div>Total: $<span id="total">0.00</span></div>
+            </div>
+            <button id="proceder-pago">Proceder al Pago</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Cosméticos y Holísticos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
